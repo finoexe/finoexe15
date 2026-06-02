@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تسجيل الدخول</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Tahoma,sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+}
+
+.left{
+    width:50%;
+    background:#123a97;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.left img{
+    width:70%;
+}
+
+.right{
+    width:50%;
+    background:#f5f5f5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.form-box{
+    width:450px;
+}
+
+.logo{
+    font-size:50px;
+    font-weight:bold;
+    text-align:right;
+    margin-bottom:20px;
+}
+
+.step{
+    color:#2563eb;
+    text-align:center;
+    font-size:22px;
+}
+
+.title{
+    text-align:center;
+    font-size:40px;
+    font-weight:bold;
+    margin-bottom:40px;
+}
+
+label{
+    font-weight:bold;
+}
+
+input{
+    width:100%;
+    padding:15px;
+    margin-top:10px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:18px;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    margin-top:20px;
+    border:none;
+    border-radius:8px;
+    background:#2563eb;
+    color:white;
+    font-size:22px;
+    cursor:pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="left">
+    <img src="illustration.png" alt="image">
+</div>
+
+<div class="right">
+    <div class="form-box">
+
+        <div class="logo">الخبر</div>
+
+        <div class="step">الخطوة 1/2</div>
+
+        <div class="title">
+            أدخل بريدك الإلكتروني<br>
+            لتسجيل الدخول أو إنشاء حساب
+        </div>
+
+        <label>البريد الإلكتروني</label>
+        <input type="email" placeholder="بريدك الإلكتروني">
+
+        <button>تسجيل</button>
+
+    </div>
+</div>
+
+</body>
+</html>
